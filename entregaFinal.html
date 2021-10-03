@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="css/logos_img/Logos_Cuo/Logo - Pestaña.svg">
+    <link href="http://fonts.googleapis.com/css?family=Roboto:400,500,700&subset=latin-ext" rel="stylesheet" type="text/css">
+    <link href="css/entregaFinal.css" rel="stylesheet" type="text/css" media="screen">
+    <title>Cuo</title>
+</head>
+<body>
+    <section id="bloque1">
+        <header>
+            <div id="img1">
+                <img src="css/logos_img/Logos_Cuo/Logo_principal.svg" alt="" id="logoHeader">
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="#bloque1">Home</a></li>
+                    <li><a href="#bloque3">Calculadora</a></li>
+                    <li><a href="#bloque5">Noticias</a></li>
+                    <li><a href="#footer">About</a></li>
+                </ul>
+            </nav>
+            <div id="redes1">
+                <a href="https://twitter.com/Ambitocom" target="_blank">
+                    <img src="css/logos_img/Logos Header/twitter_blanco.svg" alt="" id="tw1">
+                </a>
+                <a href="https://www.facebook.com/DiarioAmbitoFinanciero/" target="_blank">
+                    <img src="css/logos_img/Logos Header/facebook_blanco.svg" alt="" id="fb1">
+                </a>
+                <a href="https://www.linkedin.com/in/jes%C3%BAs-gabriel-jorge-9b6093201/" target="_blank">
+                    <img src="css/logos_img/Logos Header/linkedin_blanco.svg" alt="" id="in1">
+                </a>
+            </div>
+        </header>
+        <div id="txt1">
+            <h1>¿EN CUOTAS O DE CONTADO?</h1>
+            <h4>Ahora vas a poder saber cuál es la mejor manera de pagar tus compras.
+                Solo tenes que ingresar el monto del producto que querés comprar y 
+                la cantidad de cuotas para averiguarlo.
+            </h4> 
+        </div>
+        <a href="#bloque2">
+            <img src="css/logos_img/Flechas/flecha_abajo.svg" alt=""id="flechadw">
+        </a>
+    </section>
+
+    <section id="bloque2">
+        <div id="txt2">
+            <div class="adminDinero">
+                <h1>Administra tu dinero</h1>
+                <h4>Ahora podes calcular la tasa de interés de una manera fácil y rápida.<br>
+                    No pierdas tiempo, tampoco dinero.
+                </h4>
+            </div>
+            <div class="ahorro">
+                <img src="css/logos_img/Logos Data/signo_pesos.svg" alt="">
+                <h3>Ahorra</h3>
+                <h4>Calcula la tasa de interés <br>de tus compras</h4>
+            </div>
+            <div class="actualidad">
+                <img src="css/logos_img/Logos Data/toda_la_actualidad.svg" alt="">
+                <h3>Toda la actualidad</h3>
+                <h4>Todo lo que necesitas saber sobre<br>
+                    la economia de Argentina y el mundo 
+                </h4>
+            </div>
+            <div class="tiempo">
+                <img src="css/logos_img/Logos Data/reloj.svg" alt="">
+                <h3>No pierdas tiempo</h3>
+                <h4>Calculá de una manera facil y rápida.<br>
+                    Sin complicaciones
+                </h4>
+            </div>
+        </div>
+    </section>
+
+    <section id="bloque3">
+        <form id="myForm" name="myForm" action="" method="POST">
+            <h1>Calculador</h1>
+            <input type="text" name="compra" id="compra" placeholder="Nombre de la compra">
+			<input type="text" name="precio" id="precio" placeholder="Precio">
+			
+			<select id="cuotas">
+				<option value=6>6 cuotas</option>
+				<option value=12>12 cuotas</option>
+			</select>
+
+			<input type="text" name="inflacion" id="inflacion" placeholder="Inflación Estimada">
+			<input type="text" name="dolar" id="dolar" placeholder="Dolar blue">
+			<input id="calcularBtn" type="button" value="Calcular" onclick="datos (), mensajes(), mostrarCuotificar(), historial()">
+            
+            <div class="infoCard">
+                <span id="cuotificar" class="cuotificar"></span><br>
+                <span id="idCompra" class="idCompra"></span><br>
+                <span id="precioProd" class="precioProd"></span><br>
+                <span id="cantCuotas" class="cantCuotas"></span><br>
+                <span id="calculoCuotas" class="calculoCuotas"></span><br>
+			    <span id="calculoInflacion" class="calculoInflacion"></span><br>
+			    <span id="dolarBlue" class="dolarBlue"></span><br>
+            </div>
+		</form>
+    </section>
+
+    <section id="bloque4">
+        <div class="historial">
+            <h1>Historial</h1>
+            <h4>Visualizá tus últimos cálculos</h4>
+        </div>
+        <div class="ejemplos">
+            <div class="ejemplo1">
+                <span id="cuotificar1" class="cuotificar">
+                    <div class="cardLogo">
+                        <img src="css/logos_img/Logos Cards/Card.svg">
+                    </div>
+                    <h2>La mejor opción es pagar en cuotas</h2>
+                </span><br>
+                <span id="idCompra1" class="idCompra">
+                    <h4>Televisor</h4>
+                </span><br>
+                <span id="precioProd1" class="precioProd">
+                    <h4>Precio: $60000</h4>
+                </span><br>
+                <span id="cantCuotas1" class="cantCuotas">
+                    <h4>12 cuotas</h4>
+                </span><br>
+                <span id="calculoCuotas1" class="calculoCuotas">
+                    <h4>Valor de cada cuota: $5000</h4>
+                </span><br>
+			    <span id="calculoInflacion1" class="calculoInflacion">
+                    <h4>Porcentaje de inflacion: 30%</h4>
+                </span><br>
+			    <span id="dolarBlue1" class="dolarBlue">
+                    <h4>Dolar blue proyectado: $235.3</h4>
+                </span><br>
+            </div>
+            <div class="ejemplo2">
+                <span id="cuotificar2" class="cuotificar">
+                    <div class="cardLogo">
+                        <img src="css/logos_img/Logos Cards/pesos.svg">
+                    </div>
+                    <h2>La mejor opción es pagar de contado</h2>
+                </span><br>
+                <span id="idCompra2" class="idCompra">
+                    <h4>Pasajes</h4>
+                </span><br>
+                <span id="precioProd2" class="precioProd">
+                    <h4>Precio: $120000</h4>
+                </span><br>
+                <span id="cantCuotas2" class="cantCuotas">
+                    <h4>6 cuotass</h4>
+                </span><br>
+                <span id="calculoCuotas2" class="calculoCuotas">
+                    <h4>Valor de cada cuota: $20000</h4>
+                </span><br>
+			    <span id="calculoInflacion2" class="calculoInflacion">
+                    <h4>Porcentaje de inflacion: 2.5%</h4>
+                </span><br>
+			    <span id="dolarBlue2" class="dolarBlue">
+                    <h4>Dolar blue proyectado: $143.5</h4>
+                </span><br>
+            </div>
+            <div class="ejemplo3">
+                <span id="cuotificar3" class="cuotificar">
+                    <div class="cardLogo">
+                        <img src="css/logos_img/Logos Cards/Card.svg">
+                    </div>
+                    <h2>La mejor opción es pagar en cuotas</h2>
+                </span><br>
+                <span id="idCompra3" class="idCompra">
+                    <h4>Zapatillas</h4>
+                </span><br>
+                <span id="precioProd3" class="precioProd">
+                    <h4>Precio: $12000</h4>
+                </span><br>
+                <span id="cantCuotas3" class="cantCuotas">
+                    <h4>6 cuotas</h4>
+                </span><br>
+                <span id="calculoCuotas3" class="calculoCuotas">
+                    <h4>Valor de cada cuota: $2000</h4>
+                </span><br>
+			    <span id="calculoInflacion3" class="calculoInflacion">
+                    <h4>Porcentaje de inflacion: 25%</h4>
+                </span><br>
+			    <span id="dolarBlue3" class="dolarBlue">
+                    <h4>Dolar blue proyectado: $212.5</h4>
+                </span><br>
+            </div>
+        </div>       
+    </section>
+  
+    <section id="bloque5">
+        <div class="news1">
+            <img src="css/logos_img/Logos Data/toda_la_actualidad.svg">
+        </div>
+        <h1>Noticias</h1>
+        <h4>Todo lo que necesitas saber sobre la economía de Argentina y el mundo,<br>lo encontrás acá.</h4>
+        <a href="https://www.ambito.com/contenidos/economia.html" target="_blank">
+         <input id="newsBtn" type="button" value="Ver noticias">
+        </a>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="js/entregaFinal.js"></script>
+
+    <footer id="footer">
+        <div class="ftcuo">
+            <img src="css/logos_img/Logos_Cuo/Logo - Celeste.svg">
+        </div>
+        <div class="ftgithub">
+            <a href="https://github.com/jgjorge96" target="_blank">
+                <img src="css/logos_img/Logos Footer/github_footer.svg">
+            </a>     
+        </div>
+        <div class="ftbehance">
+            <img src="css/logos_img/Logos Footer/behance_footer.svg">
+        </div>
+        <div class="ftlinkedin">
+            <a href="https://www.linkedin.com/in/jes%C3%BAs-gabriel-jorge-9b6093201/" target="_blank">
+                <img src="css/logos_img/Logos Footer/linkedin_footer.svg">
+            </a> 
+        </div>
+        <div class="ftflecha">
+            <a href="#bloque1">
+                <img src="css/logos_img/Flechas/flecha_arriba.svg">
+            </a>
+        </div>
+        <h4>© Copyright 2021 Cuo Calculadora Online | Todos los derechos reservados | Jesús Gabriel Jorge | Argentina</h4>
+    </footer>
+</body>
+</html>
