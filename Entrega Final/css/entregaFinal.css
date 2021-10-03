@@ -1,0 +1,788 @@
+html{
+    background: #252B42;
+    width: 1920px;
+}
+h1 {
+    font-family: Roboto;
+    font-size: 74px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 84px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+}
+h2 {
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 49px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+}
+h3 {
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: center;
+}
+h4 {
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+}
+
+#img1 {
+    position: absolute;
+    left: 0.62%;
+    right: 85.89%;
+    top: 5.65%;
+    bottom: 97.46%;
+}
+#logoheader {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.menu {
+    position: absolute;
+    left: 12.76%;
+    right: 16.93%;
+    top: 0.28%;
+    bottom: 96.47%;
+    height: 174px;
+    width: 1350px;
+}
+.menu ul{
+    list-style-type: none;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    width: 556px;
+    height: 65px;
+    left: 40px;
+    top: calc(50% - 65px/2 - 0.5px);
+}
+.menu li {
+    flex: none;
+    flex-grow: 0;
+    margin: 0px 21px;
+}
+.menu a {
+    text-decoration: none;
+    color: #FFFFFF;
+
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+}
+#redes1 {
+    position: absolute;
+    width: 170.96px;
+    height: 40.99px;
+    left: 1652px;
+    top: 71px;
+}
+#tw1 {
+    margin: 15px 24px 0px -24px;
+}
+#fb1 {
+    margin-right: 24px;
+}
+
+#bloque1 {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 81.5%;
+    border-radius: 0%;
+
+    background: url("logos_img/Fondos/Inicio.svg");
+
+    height: 990px;
+    width: 1920px;  
+}
+#txt1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    right: 21.74%;
+    bottom: 88.53%;
+    height: 251px;
+    width: 1030px;
+    left: 472.5px;
+    top: 363px;
+    border-radius: 0px;
+
+}
+#bloque1 h1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: static;
+    height: 104px;
+    width: 1030px;
+    left: 0px;
+    top: 0px;
+    padding: 10px;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 7px 0px;
+}
+
+#bloque1 h4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+
+    position: static;
+    width: 925px;
+    height: 140px;
+    left: 52.5px;
+    top: 111px;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 7px 0px;
+}
+#flechadw {
+    position: absolute;
+    right: 47.5%;
+    bottom: 86.14%;
+    height: 96px;
+    width: 96px;
+    left: 912px;
+    top: 646px;
+    border-radius: 0px;
+    margin-top: 32px;
+}
+
+#bloque2 {
+    height: 767px;
+    margin-top: 990px;
+}
+#txt2 {
+    color: #FFFFFF;
+
+    height: 583px;
+    width: 1455px;
+    left: 233px;
+    top: 1046px;
+    border-radius: 0px;
+    
+}
+.adminDinero {
+    position: absolute;
+    height: 211px;
+    width: 881px;
+    margin-left: 520px;
+    margin-top: 40px;
+    border-radius: 0px;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+}
+.adminDinero h1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+
+    position: static;
+    width: 703px;
+    height: 104px;
+    left: 89px;
+    top: 0px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 7px 0px;
+}
+.adminDinero h4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+
+    position: static;
+    width: 881px;
+    height: 100px;
+    left: 0px;
+    top: 111px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: -22px 0px;
+}
+.ahorro img{
+    position: absolute;
+    height: 142px;
+    width: 142px;
+    left: 330px;
+    top: 1321px;
+    border-radius: 0px;
+}
+.ahorro h3 {
+    position: absolute;
+    height: 28px;
+    width: 123px;
+    left: 333px;
+    top: 1456px;
+}
+.ahorro h4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    position: absolute;
+    height: 80px;
+    width: 337px;
+    left: 233px;
+    top: 1510px;
+    border-radius: 0px;
+    padding: 0px, 10px, 0px, 10px;
+}
+
+.actualidad img {
+    position: absolute;
+    height: 141px;
+    width: 142px;
+    left: 889px;
+    top: 1322px;
+    border-radius: 0px;
+}
+.actualidad h3 {
+    position: absolute;
+    height: 28px;
+    width: 329px;
+    left: 789px;
+    top: 1456px;
+}
+.actualidad h4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px, 10px;
+
+    position: absolute;
+    height: 80px;
+    width: 488px;
+    left: 716.5px;
+    top: 1510px;
+    border-radius: 0px;
+}
+
+.tiempo img {
+    position: absolute;
+    height: 141px;
+    width: 142px;
+    left: 1448px;
+    top: 1322px;
+    border-radius: 0px;
+}
+.tiempo h3 {
+    position: absolute;
+    height: 28px;
+    width: 332px;
+    left: 1346px;
+    top: 1456px;
+}
+.tiempo h4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px, 10px;
+
+    position: absolute;
+    height: 80px;
+    width: 484px;
+    left: 1277.5px;
+    top: 1510px;
+    border-radius: 0px;
+}
+
+#bloque3 {
+    background: url("logos_img/Fondos/Calculadora.svg");
+    position: absolute;
+    width: 1920px;
+    height: 1234px;
+    left: 1px;
+    top: 1757px;
+}
+#myForm {
+    position: absolute;
+    width: 633.23px;
+    height: 828px;
+    left: 310px;
+    top: 184px;
+
+    background: #FFFFFF;
+    box-shadow: 8px 7px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 66px;
+}
+#myForm h2 {
+    color: #252B42;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    height: 93.6651611328125px;
+    width: 375.5972900390625px;
+    left: 454.7393035888672px;
+    top: 2003.755657196045px;
+    border-radius: 0px;
+    padding: 10px;
+}
+input {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 40px;
+
+    letter-spacing: 0.2px;
+
+    color: #374754;
+}
+input::placeholder {
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: #252B42;
+}
+#compra {
+    position: absolute;
+    width: 507.31px;
+    height: 45.3px;
+    left: 54.35px;
+    top: 220.14px;
+
+    border: none;
+    border-bottom: 1px solid rgba(37, 43, 66, 0.3);
+}
+#precio {
+    position: absolute;
+    width: 507.31px;
+    height: 45.3px;
+    left: 54.35px;
+    top: 310.73px;
+
+    border: none;
+    border-bottom: 1px solid rgba(37, 43, 66, 0.3);
+}
+#cuotas{
+    position: absolute;
+    width: 507.31px;
+    height: 45.3px;
+    left: 54.35px;
+    top: 401.32px;
+
+    border: none;
+    border-bottom: 1px solid rgba(37, 43, 66, 0.3);
+
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: #374754;
+}
+#inflacion {
+    position: absolute;
+    width: 507.31px;
+    height: 45.3px;
+    left: 54.35px;
+    top: 491.91px;
+
+    border: none;
+    border-bottom: 1px solid rgba(37, 43, 66, 0.3);
+}
+#dolar {
+    position: absolute;
+    width: 507.31px;
+    height: 45.3px;
+    left: 54.35px;
+    top: 582.5px;
+
+    border: none;
+    border-bottom: 1px solid rgba(37, 43, 66, 0.3);
+}
+#calcularBtn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 18px 38px;
+
+    position: absolute;
+    width: 423.96px;
+    height: 68.85px;
+    left: 90.06px;
+    top: 683.05px;
+
+    background: #2091F9;
+    border-radius: 35px;
+    
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    color: #FFFFFF;
+    
+}
+
+.infoCard {
+    display: none;
+
+    position: absolute;
+    height: 609px;
+    width: 434.33990478515625px;
+    top: 107px;
+    left: 839px;
+    border-radius: 66px;
+
+    background: #FFFFFF;
+    box-shadow: 8px 7px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 66px;
+}
+.cardLogo {
+    position: absolute;
+
+    left: 167px;
+    top: -35.82px;
+    border-radius: 0px;
+
+}
+.cuotificar {
+    position: absolute;
+    height: 72.08193969726562px;
+    width: 385.36114501953125px;
+    left: 23px;
+    top: 58px;
+    
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+.idCompra {
+    position: absolute;
+    height: 48.978755950927734px;
+    width: 335.4582824707031px;
+    left: 48.5px;
+    top: 159.54px;
+
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+.precioProd {
+    position: absolute;
+    height: 36.04096984863281px;
+    width: 385.36114501953125px;
+    left: 24.95px;
+    top: 214px;
+
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #252B42;
+
+    border-bottom: 1px solid rgba(37, 43, 66, 0.3);
+    padding-bottom: 41.58px;
+}
+.cantCuotas {
+    position: absolute;
+    height: 36.04096984863281px;
+    width: 385.36114501953125px;
+    left: 24.95px;
+    top: 278px;
+
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #252B42;
+
+    border-bottom: 1px solid rgba(37, 43, 66, 0.3);
+    padding-bottom: 41.58px;
+}
+.calculoCuotas {
+    position: absolute;
+    height: 36.04096984863281px;
+    width: 385.36114501953125px;
+    left: 24.95px;
+    top: 347px;
+
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #222B32;
+
+    border-bottom: 1px solid rgba(37, 43, 66, 0.3);
+    padding-bottom: 41.58px;
+}
+.calculoInflacion{
+    position: absolute;
+    height: 36.04096984863281px;
+    width: 385.36114501953125px;
+    left: 24.95px;
+    top: 417px;
+
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #222B32;    
+
+    border-bottom: 1px solid rgba(37, 43, 66, 0.3);
+    padding-bottom: 41.58px;
+}
+.dolarBlue {
+    position: absolute;
+    height: 36.04096984863281px;
+    width: 385.36114501953125px;
+    left: 24.95px;
+    top: 480px;
+
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #222B32; 
+}
+
+#bloque4 {
+    height: 1130px;
+    margin-top: 1234px;
+}
+.historial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    height: 171px;
+    width: 396px;
+    left: 762px;
+    top: 3080px;
+    border-radius: 0px;
+
+}
+.historial h1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+
+    position: static;
+    width: 304px;
+    height: 104px;
+    left: 46px;
+    top: 89px;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+.historial h4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+
+    position: static;
+    width: 396px;
+    height: 60px;
+    left: 0px;
+    top: 111px;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: -9px 0px;
+}
+.ejemplo1 {
+    position: absolute;
+    height: 609px;
+    width: 434.33990478515625px;
+    top: 3324px;
+    left: 242px;
+    border-radius: 66px;
+
+    background: #FFFFFF;
+    box-shadow: 8px 7px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 66px;
+}
+.ejemplo2 {
+    position: absolute;
+    height: 609px;
+    width: 434.33990478515625px;
+    top: 3324px;
+    left: 732.03px;
+    border-radius: 66px;
+
+    background: #FFFFFF;
+    box-shadow: 8px 7px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 66px;
+}
+.ejemplo3 {
+    position: absolute;
+    height: 609px;
+    width: 434.33990478515625px;
+    top: 3324px;
+    left: 1234px;
+    border-radius: 66px;
+
+    background: #FFFFFF;
+    box-shadow: 8px 7px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 66px;
+}
+
+#bloque5 {
+    background: url("logos_img/Fondos/Noticias.svg");
+    position: absolute;
+    width: 1920px;
+    height: 823px;
+    left: 0px;
+    top: 4121px;
+}
+.news1{
+    position: absolute;
+    left: 879px;
+    top: 132px;
+    border-radius: 0px;
+}
+#bloque5 h1 {
+    position: absolute;
+    height: 84px;
+    width: 277px;
+    left: 812px;
+    top: 235px;
+    
+    color: #FFFFFF;
+}
+#bloque5 h4 {
+    position: absolute;
+    height: 80px;
+    width: 914px;
+    left: 493px;
+    top: 374px;
+    
+    color: #FFFFFF;
+}
+#newsBtn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 18px 38px;
+
+    position: absolute;
+    width: 468px;
+    height: 76px;
+    left: 716px;
+    top: 548px;
+
+    background: #2091F9;
+    border-radius: 35px;
+    border-color: #2091F9;
+    
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+footer {
+    position: absolute;
+    height: 406px;
+    width: 1920px;
+    left: 0px;
+    top: 4946px;
+    border-radius: 0px;
+    background: #FFFFFF;
+}
+.ftcuo {
+    position: absolute;
+    left: 820px;
+    top: 49px;
+    border-radius: 0px;
+}
+.ftgithub {
+    position: absolute;
+    left: 827px;
+    top: 157px;
+    border-radius: 0px;
+}
+.ftbehance {
+    position: absolute;
+    left: 917px;
+    top: 157px;
+    border-radius: 0px;
+}
+.ftlinkedin {
+    position: absolute;
+    left: 1007px;
+    top: 157px;
+    border-radius: 0px;
+}
+.ftflecha {
+    position: absolute;
+    left: 1692px;
+    top: 141px;
+    border-radius: 0px;
+}
+footer h4 {
+    color: #374754;
+    text-align: center;
+    position: absolute;
+    top: 235px;
+    height: 53px;
+    width: 1899px;
+    left: 0px;
+}
