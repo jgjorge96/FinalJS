@@ -3,7 +3,7 @@ html{
     width: 1920px;
 }
 h1 {
-    font-family: Roboto;
+    font-family: Roboto Bold;
     font-size: 74px;
     font-style: normal;
     font-weight: 700;
@@ -12,7 +12,7 @@ h1 {
     text-align: center;
 }
 h2 {
-    font-family: Roboto;
+    font-family: Roboto Medium;
     font-size: 40px;
     font-style: normal;
     font-weight: 500;
@@ -21,7 +21,7 @@ h2 {
     text-align: center;
 }
 h3 {
-    font-family: Roboto;
+    font-family: Roboto Bold;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
@@ -30,7 +30,7 @@ h3 {
     text-align: center;
 }
 h4 {
-    font-family: Roboto;
+    font-family: Roboto Regular;
     font-size: 28px;
     font-style: normal;
     font-weight: 400;
